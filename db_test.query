@@ -1,0 +1,1 @@
+select tb_mahasiswa.mhs_nama from tb_mahasiswa, tb_mahasiswa_nilai order by tb_mahasiswa_nilai.nilai desc limit 1 where tb_mahasiswa_nilai.mk_id = 2
